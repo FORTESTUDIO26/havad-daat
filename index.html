@@ -6,7 +6,7 @@
 <title>חוות דעת לעובדי צה"ל | מדריך מקצועי ותפעולי</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700;800&family=Frank+Ruhl+Libre:wght@500;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
 :root{
   --navy:#003652; --navy2:#0A4A7A; --blue:#2371B4; --sky:#50B8EE;
@@ -29,7 +29,7 @@ body{
   font-size:16px; line-height:1.72; font-weight:400;
   overflow-x:hidden;
 }
-h1,h2,h3,h4{font-family:'Frank Ruhl Libre','David Libre','Assistant','Noto Serif Hebrew',Georgia,serif;font-weight:700;line-height:1.28;margin:0;letter-spacing:-.01em}
+h1,h2,h3,h4{font-family:'Assistant','Segoe UI','Noto Sans Hebrew','Arial Hebrew',Arial,sans-serif;font-weight:700;line-height:1.3;margin:0;letter-spacing:-.005em}
 p{margin:0 0 1em}
 p:last-child{margin-bottom:0}
 button{font-family:inherit;font-size:inherit;color:inherit;cursor:pointer}
@@ -66,7 +66,7 @@ img{max-width:100%;display:block}
 .hdr-mid{text-align:center;min-width:0;background:none;border:0;color:inherit;padding:6px 8px;border-radius:10px;cursor:pointer;transition:background .18s}
 .hdr-mid:hover{background:rgba(255,255,255,.09)}
 .hdr-title{
-  font-family:'Frank Ruhl Libre','David Libre',Georgia,serif;font-weight:700;font-size:1.06rem;line-height:1.2;
+  font-family:'Assistant','Segoe UI','Noto Sans Hebrew','Arial Hebrew',Arial,sans-serif;font-weight:700;font-size:1.06rem;line-height:1.25;
   white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
 }
 .hdr-sub{
@@ -135,7 +135,7 @@ img{max-width:100%;display:block}
 .callout.warn .mark{background:var(--amber)}
 .callout.key{background:#FBF0F3;border-color:#EED4DC}
 .callout.key .mark{background:var(--wine)}
-.callout h4{font-family:'Assistant',sans-serif;font-size:.94rem;font-weight:700;margin-bottom:3px;color:var(--navy)}
+.callout h4{font-size:.94rem;font-weight:700;margin-bottom:3px;color:var(--navy)}
 .callout p{font-size:.94rem;color:var(--ink)}
 
 .tag{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.04em;padding:3px 9px;border-radius:99px;background:var(--tint2);color:var(--navy2)}
@@ -219,7 +219,7 @@ details.acc>summary .chev,.chk .chev{margin-inline-start:10px}
 .cover-in{position:relative;margin:auto;width:100%;max-width:860px;padding:56px clamp(20px,6vw,40px);text-align:center}
 .cover-logo{width:118px;margin:0 auto 26px;filter:drop-shadow(0 10px 30px rgba(0,0,0,.45));animation:cIn .8s var(--ease) both}
 .cover-eyebrow{font-size:.74rem;letter-spacing:.24em;font-weight:700;color:var(--sky);margin-bottom:14px;animation:cIn .8s .1s var(--ease) both}
-.cover h1{font-size:clamp(2.1rem,7.6vw,3.5rem);font-weight:900;letter-spacing:-.02em;animation:cIn .8s .18s var(--ease) both}
+.cover h1{font-size:clamp(2.1rem,7.6vw,3.5rem);font-weight:800;letter-spacing:-.02em;animation:cIn .8s .18s var(--ease) both}
 .cover .sub{font-size:clamp(1rem,3.4vw,1.25rem);color:#CFE4F1;margin-top:12px;font-weight:300;animation:cIn .8s .26s var(--ease) both}
 .cover .byline{
   margin:26px auto 0;display:inline-flex;align-items:center;gap:10px;
@@ -258,12 +258,12 @@ details.acc>summary .chev,.chk .chev{margin-inline-start:10px}
 }
 .spoke:hover{border-color:var(--sky);transform:translateY(-3px);box-shadow:var(--shadow)}
 .spoke .num{font-size:.72rem;font-weight:800;letter-spacing:.1em;color:var(--navy2)}
-.spoke h4{font-family:'Assistant',sans-serif;font-size:1.04rem;font-weight:700;color:var(--navy)}
+.spoke h4{font-size:1.04rem;font-weight:700;color:var(--navy)}
 .spoke p{font-size:.9rem;color:var(--muted);line-height:1.62}
 .factbar{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;margin-top:18px}
 .fact{background:#fff;padding:16px 18px}
 .fact .k{font-size:.74rem;font-weight:700;letter-spacing:.08em;color:var(--muted);margin-bottom:3px}
-.fact .v{font-size:1.02rem;font-weight:700;color:var(--navy);font-family:'Frank Ruhl Libre','David Libre',Georgia,serif}
+.fact .v{font-size:1.02rem;font-weight:700;color:var(--navy);font-family:'Assistant','Segoe UI','Noto Sans Hebrew','Arial Hebrew',Arial,sans-serif}
 
 /* ============ GLOSSARY ============ */
 .gloss{display:grid;grid-template-columns:300px 1fr;gap:18px;align-items:start}
@@ -320,7 +320,7 @@ details.acc .body p{font-size:.97rem;color:var(--ink)}
   font-weight:800;font-size:.9rem;background:var(--navy);color:#fff;font-variant-numeric:tabular-nums;
 }
 .resp-item.center .n{background:var(--blue)}
-.resp-item h4{font-family:'Assistant',sans-serif;font-size:1.03rem;font-weight:700;color:var(--navy);margin-bottom:5px}
+.resp-item h4{font-size:1.03rem;font-weight:700;color:var(--navy);margin-bottom:5px}
 .resp-item p{font-size:.96rem;color:var(--ink)}
 .subitems{margin-top:12px;display:grid;gap:10px}
 .subitem{background:var(--tint);border:1px solid var(--line2);border-radius:var(--r-sm);padding:13px 15px}
@@ -360,7 +360,7 @@ details.acc .body p{font-size:.97rem;color:var(--ink)}
 .gstop .num{
   width:52px;height:52px;margin:0 auto 14px;border-radius:16px;background:rgba(255,255,255,.08);
   border:2px solid rgba(255,255,255,.28);display:flex;align-items:center;justify-content:center;
-  font-family:'Frank Ruhl Libre','David Libre',Georgia,serif;font-size:1.5rem;font-weight:700;position:relative;z-index:2;
+  font-family:'Assistant','Segoe UI','Noto Sans Hebrew','Arial Hebrew',Arial,sans-serif;font-size:1.5rem;font-weight:700;position:relative;z-index:2;
   transition:.26s var(--ease);
 }
 .gstop .lbl{font-size:.95rem;font-weight:700;line-height:1.3}
@@ -380,7 +380,7 @@ details.acc .body p{font-size:.97rem;color:var(--ink)}
 .quota{display:grid;gap:12px}
 .qrow{background:#fff;border:1px solid var(--line);border-radius:var(--r-sm);padding:14px 16px}
 .qtop{display:flex;gap:12px;align-items:baseline;flex-wrap:wrap;margin-bottom:10px}
-.qtop .g{font-family:'Frank Ruhl Libre','David Libre',Georgia,serif;font-size:1.2rem;font-weight:700;color:var(--navy);line-height:1.2}
+.qtop .g{font-family:'Assistant','Segoe UI','Noto Sans Hebrew','Arial Hebrew',Arial,sans-serif;font-size:1.2rem;font-weight:700;color:var(--navy);line-height:1.2}
 .qtop .w{font-size:.86rem;color:var(--muted);font-weight:600}
 .qtop .qv{margin-inline-start:auto;text-align:end;display:flex;flex-direction:column;gap:1px}
 .qtop .qv b{font-size:1.02rem;font-weight:800;color:var(--navy2)}
@@ -474,7 +474,7 @@ details.acc .body p{font-size:.97rem;color:var(--ink)}
 .stepper button[aria-selected="true"]{background:var(--navy);border-color:var(--navy);color:#fff}
 .stepper button[aria-selected="true"] .s{background:var(--sky);color:var(--navy)}
 .step-head{display:flex;gap:12px;align-items:baseline;margin-bottom:12px}
-.step-head .sn{font-family:'Frank Ruhl Libre','David Libre',Georgia,serif;font-size:2rem;font-weight:700;color:var(--sky);line-height:1}
+.step-head .sn{font-family:'Assistant','Segoe UI','Noto Sans Hebrew','Arial Hebrew',Arial,sans-serif;font-size:2rem;font-weight:800;color:var(--sky);line-height:1}
 .step-head h3{font-size:1.3rem;color:var(--navy)}
 .shot-note{font-size:.8rem;color:var(--muted2);margin-top:8px}
 .inline-shot{border:1px solid var(--line);border-radius:var(--r-sm);overflow:hidden;background:#fff;display:inline-block;max-width:100%}
